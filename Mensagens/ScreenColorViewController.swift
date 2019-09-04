@@ -10,9 +10,15 @@ import UIKit
 class ScreenColorViewController: BaseViewController {
     
     @IBOutlet weak var viBorder: UIView!
+    @IBOutlet weak var swWhiteBorder: UISwitch!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let vc = segue.destination as! ResultViewController
+        vc.message = message
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -20,5 +26,8 @@ class ScreenColorViewController: BaseViewController {
         navigationController?.setNavigationBarHidden(false, animated: true)
     }
     
+    @IBAction func changerBorder(_ sender: UISwitch) {
+        viBorder.backgroundColor = sender.isOn ? .white : .clear
+    }
 }
 

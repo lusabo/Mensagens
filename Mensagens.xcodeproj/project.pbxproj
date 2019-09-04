@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1CDB2396232063F300E6412B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB2395232063F300E6412B /* BaseViewController.swift */; };
+		1CDB23982320680800E6412B /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB23972320680800E6412B /* ColorPickerViewController.swift */; };
 		A17132CE1F844BD600049020 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17132CD1F844BD600049020 /* AppDelegate.swift */; };
 		A17132D01F844BD600049020 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17132CF1F844BD600049020 /* MessageViewController.swift */; };
 		A17132D31F844BD600049020 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A17132D11F844BD600049020 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		1CDB2395232063F300E6412B /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		1CDB23972320680800E6412B /* ColorPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
 		A17132CA1F844BD600049020 /* Mensagens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mensagens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17132CD1F844BD600049020 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A17132CF1F844BD600049020 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				A17132E11F844D7F00049020 /* ScreenColorViewController.swift */,
 				A17132E31F844D8E00049020 /* ResultViewController.swift */,
 				A17132D11F844BD600049020 /* Main.storyboard */,
+				1CDB23972320680800E6412B /* ColorPickerViewController.swift */,
 				A17132D41F844BD600049020 /* Assets.xcassets */,
 				A17132D61F844BD600049020 /* LaunchScreen.storyboard */,
 				A17132D91F844BD600049020 /* Info.plist */,
@@ -157,6 +160,7 @@
 				A17132E61F844EB700049020 /* Message.swift in Sources */,
 				A17132E01F844D7300049020 /* MessageColorViewController.swift in Sources */,
 				1CDB2396232063F300E6412B /* BaseViewController.swift in Sources */,
+				1CDB23982320680800E6412B /* ColorPickerViewController.swift in Sources */,
 				A17132CE1F844BD600049020 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

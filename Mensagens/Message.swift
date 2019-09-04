@@ -1,10 +1,3 @@
-//
-//  Message.swift
-//  Mensagens
-//
-//  Copyright © 2017 Eric Brito. All rights reserved.
-//
-
 import UIKit
 
 struct Message {
